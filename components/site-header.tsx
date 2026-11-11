@@ -32,9 +32,9 @@ const menus = [
 ];
 export function SiteHeader(){
  const [open,setOpen]=useState<string|null>(null); const [mobile,setMobile]=useState(false);
- return <><div className="topbar">Free tracked postage · Quotes held for 14 days · Fast payment</div>
+ return <><div className="topbar"><span>Free tracked postage</span><span>Quotes held for 14 days</span><span>Fast, straightforward payment</span></div>
  <header className="header mega-header">
-  <Link className="brand" href="/"><span className="brand-mark">r</span>reclaim<span>.</span></Link>
+  <Link className="brand" href="/"><span className="brand-mark">A</span>ABC DEMO</Link>
   <nav className={mobile?"nav main-nav open":"nav main-nav"}>
    {menus.map(m=><div className="nav-group" key={m.label} onMouseEnter={()=>setOpen(m.label)} onMouseLeave={()=>setOpen(null)}>
     <Link href={m.href}>{m.label}<ChevronDown size={13}/></Link>

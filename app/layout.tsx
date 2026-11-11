@@ -3,8 +3,8 @@ import "./globals.css";
 import "./extended.css";
 
 export const metadata: Metadata = {
-  title: "Reclaim — Turn old tech into cash",
-  description: "A modern device trade-in experience for phones, tablets, watches and Macs.",
+  title: "ABC DEMO — Turn old technology into new possibility",
+  description: "A modern, considered device trade-in experience for phones, tablets, watches, Macs and consoles.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
